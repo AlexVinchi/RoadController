@@ -2,7 +2,9 @@ import core.*;
 import core.Camera;
 
 import java.util.Scanner;
-
+/*
+Point of automatic check of the car and collection of payment
+ */
 public class RoadController {
     private static double passengerCarMaxWeight = 3500.0; // kg
     private static int passengerCarMaxHeight = 2000; // mm

@@ -1,7 +1,5 @@
 package core;
-/*
-Point of automatic check of the car and collection of payment
- */
+
 public class Car {
     public String number;
     public int height;
