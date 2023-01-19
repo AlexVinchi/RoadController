@@ -17,10 +17,10 @@ public class Car {
     public double getWeight(){ return weight;}
 
     public void setHasVehicle(boolean hasVehicle){ this.hasVehicle = hasVehicle;}
-    public boolean getHasVehicle(){return hasVehicle;}
+    public boolean isHasVehicle(){return hasVehicle;}
 
     public void setSpecial(boolean isSpecial){this.isSpecial = isSpecial;}
-    public boolean getSpecial(){return isSpecial;}
+    public boolean isSpecial(){return isSpecial;}
 
     public String toString() {
         String special = isSpecial ? "СПЕЦТРАНСПОРТ \n=========================================\n " : "";
